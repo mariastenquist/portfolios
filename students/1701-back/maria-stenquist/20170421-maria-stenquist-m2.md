@@ -8,14 +8,13 @@ This module I set out to understand how the Ruby object model, data structures, 
 
 | Section | Category | Score (optional) |
 | --- | ----- | --- |
-| A | **End-of-Module Assessment** | X |
-| B | **Individual Work & Projects** | X |
-| C | **Group Projects** | X |
-| D | **Professional Development** | X |
-| E | **Feedback & Community Participation** | X |
+| A | **End-of-Module Assessment** | 3 |
+| B | **Individual Work & Projects** | 3 |
+| C | **Group Projects** | 3 |
+| D | **Professional Development** | 3 |
+| E | **Feedback & Community Participation** | 3 |
 
-Takeaways, your experience
-Notes
+Takeaways: A busy module! Definitely learned a lot, and it was fun to dive into MVC and create a rails app where we are able to see items displayed on browser, as well as a connection to a Postgres database. 
 
 -----------------------
 
@@ -23,12 +22,8 @@ Notes
 
 | Category | Score (optional) |
 | ----- | --- |
-| **Pairing Assessment** | X |
-| **Written Diagnostic** | X |
-
-Takeaways, your experience
-Notes
-
+| **Pairing Assessment** | PASS |
+| **Written Diagnostic** | 5/5 |
 
 ## B: Individual Work & Projects
 
@@ -36,10 +31,18 @@ Notes
 Cybersecurity(https://gist.github.com/mariastenquist/5eec92a9319bd14c2078a7b326e4daa9)
 
 #### Tutorials: Blogger & Mix Master
-Takeaways, your experience
+Takeaways:
+
+Blogger:
+
+MixMaster:
+
 
 #### Projects: Job Tracker & Rails Mini Project
-Takeaways, your experience
+Takeaways:
+Job Tracker:
+
+Rails Mini Project: https://github.com/lao9/wellness_tracker
 
 
 ## C: Group Work & Projects
@@ -50,13 +53,14 @@ Takeaways, your experience
 * Takeaways: Our team quickly realized the value of using fixtures instead of using the entire seed file, as well as the advantages of using ActiveRecord queries instead of iterating over every single record using Ruby enumerables. Our team also chose to use a front-end framework for the styling, Material Design Lite, and we customized certain elements in CSS. 
 
 **Little Shop of Orders** 
-* \<Description>
-* \<Takeaways, your experience>
+* Description: A Rails application using a PostgreSQL database. Our team chose to sell 'animal-hybrids' (e.g. a liger) on our Mythical Mingled Emporium app. The app had a selection of animal-hybrids that were grouped in categories. Users are able to peruse animal-hybrids on the site and have the ability to add them to a shopping cart to checkout.
+
+* Takeaways: My main takeaways from this project was learning to work in a larger work and balancing tasks/branches in a Rails App. I think our team developed a really good git workflow, and I learned a lot from that exposure. Also, I think this project really helped me to solidify the bigger-picture of a basic Rails App, and has shown me the potential that a Rails App has. Our group chose a fun topic (hybrid-animals) and I really enjoyed working with my team. I learned something (multiple things) from each of my team members and I was glad to see all group members helping other team-members throughout this project. 
 
 | CATEGORY | Bike Share (scores optional) | Little Shop (scores optional) |
 | --- | --- | --- |
 | **Project Spec** | [Bike Spec](https://github.com/turingschool/bike-share/blob/master/README.md) | [Shop Spec](http://backend.turing.io/module2/projects/little_shop) |
-| **Github Repo** | [Bike Repo](https://github.com/glassjoseph/bike-share) | [Shop Repo](https://) |
+| **Github Repo** | [Bike Repo](https://github.com/glassjoseph/bike-share) | [Shop Repo](https://github.com/mariastenquist/mythical_mingled_emporium) |
 | **Functional Expectations** | 3 | X |
 | **ActiveRecord** | 3 | X |
 | **User Experience and Conventions** | 4 | X |
@@ -65,11 +69,17 @@ Takeaways, your experience
 | **Working Collaboratively** | 3 | X |
 
  Bike Share evaluation comments:
-\Instructor Comments:
+Instructor Comments:
+-Would have been great to polish the styling a bit more. While a grid was used, a little more work on alignment & visual appearance was needed.
+-Normalizing data: plan out the DB in detail, don't be afraid to change them later since AR can be flexible in finding items. AR can do the heavy lifting in finding/sorting things.
+-Focus on moving logic further down the stack, and refactoring methods. Calling ruby enums instead of setting up relationships and calling them using AR
+-Testing: was a bit light, needed more robust testing. 
+-Workflow: writing comments on all merges, and explain reasoning so that a year from now you can decipher what the intent was for the commits/merges. 
+-Standardize naming conventions
 
 
  Little Shop evaluation comments:
-Instructor Comments Here
+/Instructor Comments Here
 
 ##### Feedback to me for Bike Share
 
@@ -127,20 +137,21 @@ Intro
 
   * For Jonathan Kidd: Jonathan! You were awesome to work with on the Little Shop project. You approached the project with a great attitude, which contributed to a comfortable atmosphere to work in as a group. I appreciated how you were always willing to pair on something, and helped me get over some small speed-bumps that I needed a second pair of eyes on, or just needed to voice out loud what a piece of functionality was doing. A couple of your strengths in the project were driving forward RSpec tests, as well as a bigger-picture of how the code is interacting in the project, which was helpful for us to keep the project scope in mind, and moving forward. I had to give it some thought for some constructive feedback for you in the future, and the one thing I came up with: you have really great ideas & strong technical skills, I think taking more leadership or expressing your ideas more quickly would have steered our project in a positive way. In addition, I think you have great teaching skills as I learned a lot from your explanations in our pairings, and I think you would be great at leading a spike for Turing students (I look forward to attending it!). I think your calm demeanor & open-approach being valuable to you as a developer on a team, and I foresee you being a great project lead/having leadership skills in an impactful way for whichever organization you join post-Turing. Hopefully we get to work again in a group at Turing or beyond.
 
-  * For Sam Landfried:
+  * For Sam Landfried: Sam, it was a great learning experience for me to finally have you as a team member. You set out to learn as much as you could in this project, and I think you did a good job balancing your own learning objectives with those of the rest of the team. You were dedicated to the project, as well as the team, and while you kept the scope of the project in mind, you were never afraid to dive into the nitty gritty details of the code. I think this skill will immensely serve you as a developer. During our project, you did an awesome job with juggling other commitments, such as your work with Wozniak Posse and arranging a lecture on Beth's job-hunt process (which was a great lecture, I got a lot out of it) as well as side-projects (something about working in Java?), so you are always thinking two-steps ahead. Having said this, while you conceptually and technically were very strong in driving forward the objectives of the project, I noticed a couple times where other members of the group had valuable input that was not given credence to at that point, but later surfaced as being relevant. Otherwise, I am hard-pressed to think of any other constructive feedback as you were an excellent teammate, and I really appreciated our pairing sessions (especially on RSpec!) as they helped to synthesize several concepts for me. Thanks for making yourself available to pair, and it is clear you have a knack for teaching, which is a super valuable skill to have. I foresee you going on to doing great things as a developer, and hopefully we get to work together again soon!
 
 #### **Posse**
-  * \Hamilton Posse! The focus of the posse was to work on Turing-related projects that benefit the Turing community. The focal point for this inning was the Wellness Tracker app, and another project spearheaded by a student in Hamilton was to have a Turing booth at the upcoming Pride Fest (in June). 
+  * Hamilton Posse! The focus of the posse was to work on Turing-related projects that benefit the larger Turing community. The focal point for this inning was the Wellness Tracker app, to provide students an application where they can input goals and update them for every week of the module to meet wellness goals, as wellness & personal wellbeing is an important counter-weight to the intensity of the Turing program. Another project spearheaded by one of the student's in Hamilton is to have a Turing booth at the upcoming Pride Fest (in June). 
   
-  * \How supportive all the students were, and I learned a ton from some talented ladies that took on the Wellness Tracker.  >* \<How has your posse experience helped you grow as a professional?>
+  * Key Takeaways: How supportive all the students were, and I learned a ton from some talented ladies that took on the Wellness Tracker.
 
 #### **Playing a Part**
 
- I have contributed to the Turing community through being an active member of the Hamilton Posse. in addition, I have held some one-on-one pairings with other students to discuss the 'start' of the job search by providing contacts, providing a frame for narrowing down interests/passions/industry focus, and reviewing/revising resumes. When I am at Turing on the weekends, I make it a point to tidy up one area of the school (sometimes emptying the dishwasher, other times recycling things that are left in the classroom, etc). I am always available to provide emotional support to other students, whether that is lending an ear, walking around the block, or thinking of other ways to improve the situation. I have really enjoyed the Turing Diversity lunches (especially while enjoying the sun at the park!). Module 1 (both times) was an emotional rollercoaster for me, so I have reached out to a few module 1 students to help provide support. 
+ I have contributed to the Turing community through being an active member of the Hamilton Posse. in addition, I have held some one-on-one pairings with other students to discuss the 'start' of the job search by providing contacts, providing a frame for narrowing down interests/passions/industry focus, and reviewing/revising resumes. When I am at Turing on the weekends, I make it a point to tidy up one area of the school (sometimes emptying the dishwasher, other times recycling things that are left in the classroom, etc). I am always available to provide emotional support to other students, whether that is lending an ear, walking around the block, or thinking of other ways to improve the situation. I have really enjoyed the Turing Diversity lunches (especially while enjoying the sun at the park!). Module 1 (both times) was an emotional rollercoaster for me, so I have reached out to a few module 1 students to help provide support as I 100% empathize with their experience. 
 
 ##### Peer/Community Feedback:
 
  From Amara Lovato: Maria is an excellent member of the Turing community. She is always eager to help other people providing whatever is needed. If she hears that you are struggling with something, she doesn’t think twice and offers all her attention and time, plus she checks on you afterwards to make sure that your problem is solved or you are feeling better. She leads Hamilton posse, actively participates in Turing Diversity group and it’s also involved in many other non-official initiatives in the community. She is knowledgeable but humble what makes her even a better developer and an amazing person to work with. She is a wonderful person, honestly, a jewel of Turing. She will be a great ambassador to empower other women to join tech and make a positive change in the world for sure.
+
 
 ------------------
 
@@ -149,4 +160,3 @@ Intro
  #### Notes ( Leave blank for reviewers )
 
  #### Outcome ( Leave blank for reviewers )
-
