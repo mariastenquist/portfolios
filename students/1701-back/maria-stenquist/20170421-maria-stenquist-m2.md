@@ -28,21 +28,22 @@ Takeaways: A busy module! Definitely learned a lot, and it was fun to dive into 
 ## B: Individual Work & Projects
 
 #### Blog Post:
-Cybersecurity(https://gist.github.com/mariastenquist/5eec92a9319bd14c2078a7b326e4daa9)
+[Cybersecurity](https://gist.github.com/mariastenquist/5eec92a9319bd14c2078a7b326e4daa9)
 
 #### Tutorials: Blogger & Mix Master
 Takeaways:
 
-Blogger:
+Blogger: I thought this tutorial was a great introduction to rails and was glad that we had this prior to the lectures that reinforced these concepts.
 
-MixMaster:
+MixMaster: I have a feeling that I will be coming back to this tutorial repeatedly, as there are a lot of fundamental rails concepts expanded upon in this project. I would like to do this project again from scratch and see how far I get without referencing anything. 
 
 
 #### Projects: Job Tracker & Rails Mini Project
 Takeaways:
-Job Tracker:
+Job Tracker: I did not get as far on job tracker as I would have liked, but I did spiral around and took a second glance at it at the end of the module and that was helpful once I had had some more practice & exposure to the concepts. I would like to revisit this over the break and get it fully working, and attempt to tackle an extension. 
 
 Rails Mini Project: https://github.com/lao9/wellness_tracker
+This was an awesome project to practice rails skills, as well work in a team and meld different working styles. This was a really fun project trying to figure out where to put things, and without a tutorial or spec, we enjoyed the freedom to make design/functionality calls. A good first exposure to integrating Oauth & Census--although since Census is in the midst of some changes our functionality on that front is not working (yet). I look forward to working on the project further.
 
 
 ## C: Group Work & Projects
@@ -79,7 +80,7 @@ Instructor Comments:
 
 
  Little Shop evaluation comments:
-/Instructor Comments Here
+/Instructor Comments Here:
 
 ##### Feedback to me for Bike Share
 
