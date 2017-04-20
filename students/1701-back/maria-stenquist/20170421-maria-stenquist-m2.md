@@ -33,7 +33,7 @@ Takeaways: A busy module! Definitely learned a lot, and it was fun to dive into 
 #### Tutorials: Blogger & Mix Master
 Takeaways:
 
-Blogger: I thought this tutorial was a great introduction to rails and was glad that we had this prior to the lectures that reinforced these concepts.
+Blogger: I thought this tutorial was a great introduction to ruby on rails and was glad that we had this prior to the lectures that reinforced these concepts. This was good exposure to the components of a rails app, and start to wrap my head around the DB, migrations, RESTful routes, and integrating MVC. It certainly did not make a ton of sense at this stage, but the later tutorials helped to strengthen my understanding of concepts.
 
 MixMaster: I have a feeling that I will be coming back to this tutorial repeatedly, as there are a lot of fundamental rails concepts expanded upon in this project. I would like to do this project again from scratch and see how far I get without referencing anything. 
 
@@ -62,15 +62,14 @@ This was an awesome project to practice rails skills, as well work in a team and
 | --- | --- | --- |
 | **Project Spec** | [Bike Spec](https://github.com/turingschool/bike-share/blob/master/README.md) | [Shop Spec](http://backend.turing.io/module2/projects/little_shop) |
 | **Github Repo** | [Bike Repo](https://github.com/glassjoseph/bike-share) | [Shop Repo](https://github.com/mariastenquist/mythical_mingled_emporium) |
-| **Functional Expectations** | 3 | X |
-| **ActiveRecord** | 3 | X |
-| **User Experience and Conventions** | 4 | X |
-| **Code Organization/Quality** | 3 | X |
-| **Testing** | 3 | X |
-| **Working Collaboratively** | 3 | X |
+| **Functional Expectations** | 3 | 3 |
+| **ActiveRecord** | 3 | 4 |
+| **User Experience and Conventions** | 4 | 4 |
+| **Code Organization/Quality** | 3 | 4 |
+| **Testing** | 3 | 4 |
+| **Working Collaboratively** | 3 | 4 |
 
  Bike Share evaluation comments:
-Instructor Comments:
 -Would have been great to polish the styling a bit more. While a grid was used, a little more work on alignment & visual appearance was needed.
 -Normalizing data: plan out the DB in detail, don't be afraid to change them later since AR can be flexible in finding items. AR can do the heavy lifting in finding/sorting things.
 -Focus on moving logic further down the stack, and refactoring methods. Calling ruby enums instead of setting up relationships and calling them using AR
@@ -80,7 +79,10 @@ Instructor Comments:
 
 
  Little Shop evaluation comments:
-/Instructor Comments Here:
+- Could have moved a couple methods in the controller to the model--push it down the stack! There was one long-ish method in the controller that could have been refactored
+- Styling/SiteUsability was good
+- Could have combined more patterns in the partials/views
+- Workflow was solid
 
 ##### Feedback to me for Bike Share
 
@@ -97,22 +99,19 @@ It was great working with you on Little Shop, you were an excellent teammate. I 
 
   * From Sam Landfried: I’m glad we got to finally work in a group together! You’re easy to get along with, committed to the work and kind. In short, an asset to any group you’re on. I admire how you seem to have a dozen irons in the fire and somehow never get stressed out. Specifically, during our time working together, you were visiting friends in the hospital, studying RSpec, spearheading the styling decisions, leading a posse and engaging the job hunt more directly than anyone else in our cohort. Amazing! While staying busy is obviously a fantastic character trait, I think it might occassionally interfere with effective coding. I believe concentrating on a single process of your application is helpful for debugging, and I noticed at times you were making decisions based on your personal assumptions and beliefs, not based on what the code was telling you. So, you’re probably tired of hearing it, but my advice is: Slow down. Identify your assumptions. Confirm those assumptions. And that’s it! Looking forward to working together in the future. And I still owe you a data structures lesson! Open invitation.
 
-  * From Danny Radden:
-
+  * From Danny Radden: Hi Maria, you are swell. Good job. 
 
 ## D: Professional Skills
-
-Intro
 
 #### **Professional Development Workshops** [Warm Outreach, Agile Process, Feedback](https://github.com/turingschool/career-development-curriculum/blob/master/deliverable_submissions/1701-b/maria_stenquist.md)
 
 #### **Gear Ups**
  [Empathy](https://github.com/turingschool/gear-up/blob/master/empathy.markdown)
-3-4 sentences summarizing your takeaways, including things you're continuing to think about, things you learned, things you're doing differently>
 
   That empathy towards others during a very high-stress environment (such as Turing) is a very important trait/skill to have as classmates. It can be a challenge to express empathy when individuals are stressed out and sleep deprived, however I have learned that it has helped me to reach out to others that are struggling as well and to provide emotional support. Empathizing and listening to others' stories has helped me put things in perspective, and have changed my outlook/strategy towards the program. Diversity is good: our backgrounds bring different strengths to the table, but we should focus on inclusivity as we are all in this together. 
 
  [Grit](https://github.com/turingschool/gear-up/blob/master/grit.markdown)
+ 
 - How did your grit come into play? Thinking about long-term future goals that I am passionate about. Looking ahead to the idea of working on projects that I find interesting, and am passionate about. Turing is part of the journey to achieving those goals.
 - Have you been able to strengthen your grit (or your grittiness) in your time at Turing? Well, I am still here at Turing so I am motivated to come here and try my best. It has been helpful to focus on my journey and not compare myself to others. That can lead to 'unproductive' stress and clutters some brainpower/cognitive resources. 
 - Is it in any way problematic to think about challenges through the lens of grit (ex: emphasizing pushing through when you really need a break)? Yes--stopping and walking away from something gives a respite that can often help productivity/efficiently, rather than constantly being switched 'on' and burning-out through lengthy code sessions. Also, if you are really not enjoying something, you may need to shift your focus towards something that you are passionate about (whether that is a long-term goal), or re-evaluating what it is that you are doing that you aren't enjoying. 
